@@ -7,7 +7,7 @@ diceVal = ["1", "2", "3", "4", "5", "6"];
 const userInput = document.querySelector("input");
 const diceBtn = document.querySelector("button");
 const pSum = document.querySelector("#sum-para");
-const pDice = document.querySelector("#dice");
+const pDice = document.querySelector("#dice-para");
 let diceList = "";
 let sum = 0;
 
@@ -75,7 +75,7 @@ var decoded = decodeHTML(
 // const convertDice = () => {
 	// how do I display the dice image?
 	// needs to go into the html w/o the quotes
-	// remove &# and pass the numbers into fromCharCode gives me the dice
+	// TEST: remove &# and pass the numbers into String.fromCharCode() gives me the die image
 	//  die = (diceArr[num]);
     // die.replace(/&#/, "");
 
